@@ -65,11 +65,11 @@ calculatePayroll = (employeesRecords) => {
 
 cRecord = createEmployeeRecord(["stephen", "abigael", "joywin", 27])
 
-updatedBpRecord = createTimeInEvent(cRecord, "0044-03-14 0900")
-updatedBpRecord = createTimeOutEvent(cRecord, "0044-03-14 2100")
+updatedBpRecord = createTimeInEvent(cRecord, "0047-04-14 0800")
+updatedBpRecord = createTimeOutEvent(cRecord, "0034-04-14 2100")
 
-updatedBpRecord = createTimeInEvent(cRecord, "0044-03-15 0900")
-updatedBpRecord = createTimeOutEvent(cRecord, "0044-03-15 1100")
+updatedBpRecord = createTimeInEvent(cRecord, "0024-02-15 0900")
+updatedBpRecord = createTimeOutEvent(cRecord, "0034-01-15 1200")
 
 console.log(allWagesFor(cRecord))
 
